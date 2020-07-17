@@ -5,24 +5,25 @@ using System.Runtime.CompilerServices;
 
 namespace Domain.Person
 {
-    /*namespace System.Runtime.CompilerServices
+    /*
+    namespace System.Runtime.CompilerServices
     {
         public class IsExternalInit { }
 
-        public class Person2
+        public data class Person2
         {
             public string FirstName { get; init; }
             public string LastName { get; init; }
-            public int Id { get; }
-            public string Email { get; }
-            public DateTime DateOfBirth { get; }
+            public int Id { get; init; }
+            public string Email { get; init; }
+            public DateTime DateOfBirth { get; init; }
         }
-    }*/
+    }
+    */
 
-
-    public class Person
+    public class ImmutablePerson
     {
-        public Person(int id, string firstName, string lastName, string email, DateTime dateOfBirth)
+        public ImmutablePerson(int id, string firstName, string lastName, string email, DateTime dateOfBirth)
         {
             Id = id;
             FirstName = firstName;
@@ -36,5 +37,14 @@ namespace Domain.Person
         public string LastName { get; }
         public string Email { get; }
         public DateTime DateOfBirth { get; }
+    }
+
+    public class Person
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
 }
