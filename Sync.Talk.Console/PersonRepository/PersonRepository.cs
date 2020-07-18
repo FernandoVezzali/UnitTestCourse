@@ -22,7 +22,7 @@ namespace Sync.Talk.PersonRepository
 
         public IEnumerable<Person> GetTop(int numberOfRows)
         {
-            return _externalDatabase.GetAll().Take(numberOfRows);
+            return _externalDatabase.GetAll().OrderBy(x=>x.FirstName).Take(numberOfRows);
         }
     }
 

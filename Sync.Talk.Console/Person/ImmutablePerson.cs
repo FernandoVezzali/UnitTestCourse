@@ -8,8 +8,6 @@ namespace Domain.Person
     /*
     namespace System.Runtime.CompilerServices
     {
-        public class IsExternalInit { }
-
         public data class Person2
         {
             public string FirstName { get; init; }

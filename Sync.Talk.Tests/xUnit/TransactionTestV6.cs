@@ -2,7 +2,7 @@
 using System;
 using Xunit;
 
-namespace Tests.UnitTests
+namespace Tests.UnitTests.xUnit
 {
     /*
 
@@ -13,7 +13,7 @@ namespace Tests.UnitTests
     public class TransactionTestV6
     {
         [Fact]
-        public void ShoudHandleException()
+        public void ShouldHandleException()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);

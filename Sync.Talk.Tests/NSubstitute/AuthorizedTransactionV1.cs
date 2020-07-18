@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace Tests.UnitTests
+namespace Tests.UnitTests.NSubstitute
 {
     public class AuthorizedTransactionV1
     {
         [Fact]
-        public void ShoudHandleNotImplementedException()
+        public void ShouldHandleNotImplementedException()
         {
             // Arrange
             var externalAuthorization = new ExternalAuthorization();
@@ -21,7 +21,7 @@ namespace Tests.UnitTests
         }
 
         [Fact]
-        public void ShoudReturnAmount200AsItsAuthorized()
+        public void ShouldReturnAmount200AsItsAuthorized()
         {
             // Arrange
             var externalAuthorization = Substitute.For<IExternalAuthorization>();
@@ -36,7 +36,7 @@ namespace Tests.UnitTests
         }
 
         [Fact]
-        public void ShoudReturnAmount100AsItsNotAuthorized()
+        public void ShouldReturnAmount100AsItsNotAuthorized()
         {
             // Arrange
             var externalAuthorization = Substitute.For<IExternalAuthorization>();

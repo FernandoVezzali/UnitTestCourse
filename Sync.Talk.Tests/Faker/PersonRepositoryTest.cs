@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace Sync.Talk.Tests.Faker
+namespace Tests.UnitTests.Faker
 {
     public class PersonRepositoryTest
     {
@@ -15,12 +15,12 @@ namespace Sync.Talk.Tests.Faker
         [InlineData(1, 10, 300)]
         [InlineData(10, 100, 400)]
         [InlineData(100, 1000, 500)]
-        public void ShoudReturnCorrectAmountOfRows(int numberOfRowsToReturn, int numberOfTotalRows, int yearsToGoBack)
+        public void ShouldReturnCorrectAmountOfRows(int numberOfRowsToReturn, int numberOfTotalRows, int yearsToGoBack)
         {
             List<Domain.Person.Person> pessoas = new Faker<Domain.Person.Person>()
                 .RuleFor(c => c.Id, f => f.Random.Int())
                 .RuleFor(c => c.FirstName, f => f.Name.FirstName())
-                .RuleFor(c => c.FirstName, f => f.Name.LastName())
+                .RuleFor(c => c.LastName, f => f.Name.LastName())
                 .RuleFor(c => c.Email, f => f.Person.Email)
                 .RuleFor(c => c.DateOfBirth, f => f.Date.Past(yearsToGoBack))
                 .Generate(numberOfTotalRows);

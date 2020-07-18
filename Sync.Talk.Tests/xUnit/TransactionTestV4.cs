@@ -2,7 +2,7 @@
 using System;
 using Xunit;
 
-namespace Tests.UnitTests
+namespace Tests.UnitTests.xUnit
 {
     /*
 
@@ -17,7 +17,7 @@ namespace Tests.UnitTests
         [InlineData(100, 200)]
         [InlineData(200, 300)]
         [InlineData(-100, 0)]
-        public void ShoudReturnCorrectAmount(int amountToSum, int expectedResult)
+        public void ShouldReturnCorrectAmount(int amountToSum, int expectedResult)
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);

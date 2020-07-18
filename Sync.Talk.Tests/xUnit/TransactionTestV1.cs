@@ -2,7 +2,7 @@
 using System;
 using Xunit;
 
-namespace Tests.UnitTests
+namespace Tests.UnitTests.xUnit
 {
     /*
                 NUnit               MSTest          Xunit
@@ -16,7 +16,7 @@ namespace Tests.UnitTests
     public class TransactionTestV1
     {
         [Fact]
-        public void ShoudReturnAmount100()
+        public void ShouldReturnAmount100()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);
@@ -26,7 +26,7 @@ namespace Tests.UnitTests
         }
 
         [Fact]
-        public void ShoudReturnAmount200()
+        public void ShouldReturnAmount200()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);

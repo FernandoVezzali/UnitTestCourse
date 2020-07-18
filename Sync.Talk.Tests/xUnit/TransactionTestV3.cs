@@ -2,7 +2,7 @@
 using System;
 using Xunit;
 
-namespace Tests.UnitTests
+namespace Tests.UnitTests.xUnit
 {
     /*
     
@@ -16,7 +16,7 @@ namespace Tests.UnitTests
     {
         [Fact]
         [Trait("Category", "Sum")]
-        public void ShoudReturnAmount100()
+        public void ShouldReturnAmount100()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);
@@ -27,7 +27,7 @@ namespace Tests.UnitTests
 
         [Fact]
         [Trait("Category", "Sum")]
-        public void ShoudReturnAmount200()
+        public void ShouldReturnAmount200()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);
@@ -41,7 +41,7 @@ namespace Tests.UnitTests
 
         [Fact]
         [Trait("Category", "Subtract")]
-        public void ShoudReturnAmount100WhenSubtracting()
+        public void ShouldReturnAmount100WhenSubtracting()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);
@@ -55,7 +55,7 @@ namespace Tests.UnitTests
 
         [Fact]
         [Trait("Category", "Subtract")]
-        public void ShoudReturnAmount200WhenSubtracting()
+        public void ShouldReturnAmount200WhenSubtracting()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);

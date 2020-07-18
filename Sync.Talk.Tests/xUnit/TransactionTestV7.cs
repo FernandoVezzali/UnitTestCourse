@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Tests.UnitTests
+namespace Tests.UnitTests.xUnit
 {
     /*
 
@@ -25,7 +25,7 @@ namespace Tests.UnitTests
         }
 
         [Fact]
-        public void ShoudReturnAmount200()
+        public void ShouldReturnAmount200()
         {
             // Arrange
             var transaction = new Transaction(Guid.NewGuid().ToString(), DateTime.Now, 100);

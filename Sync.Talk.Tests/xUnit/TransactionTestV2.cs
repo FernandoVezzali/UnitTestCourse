@@ -2,7 +2,7 @@
 using System;
 using Xunit;
 
-namespace Tests.UnitTests
+namespace Tests.UnitTests.xUnit
 {
     /*
                NUnit        MSTest              Xunit
@@ -21,14 +21,14 @@ namespace Tests.UnitTests
         }
 
         [Fact]
-        public void ShoudReturnAmount100()
+        public void ShouldReturnAmount100()
         {
             // Assert
             Assert.Equal(100, _transaction.Amount);
         }
 
         [Fact]
-        public void ShoudReturnAmount200()
+        public void ShouldReturnAmount200()
         {
             // Act
             _transaction.Sum(100);

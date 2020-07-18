@@ -12,10 +12,10 @@ namespace Tests.UnitTests.Faker
     {
         [Theory]
         [InlineData(1, "John", "Smith", "john@gmail.com")]
-        public void ShoudHaveCorrectPropertyValues(int id, string firstName, string lastName, string email)
+        public void ShouldHaveCorrectPropertyValues(int id, string firstName, string lastName, string email)
         {
             // Act
-            var person = new Domain.Person.ImmutablePerson(id, firstName, lastName, email, DateTime.Now);
+            var person = new ImmutablePerson(id, firstName, lastName, email, DateTime.Now);
 
             // Assert
             Assert.Equal(person.Id, id);
@@ -26,7 +26,7 @@ namespace Tests.UnitTests.Faker
 
         [Theory]
         [InlineData(1)]
-        public void ShoudHaveCorrectPropertyValuesFaker(int id)
+        public void ShouldHaveCorrectPropertyValuesFaker(int id)
         {
             // Arrange
             Domain.Person.Person person = new Faker<Domain.Person.Person>("pt_BR")
