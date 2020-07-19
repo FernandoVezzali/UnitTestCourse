@@ -12,9 +12,9 @@ namespace Tests.UnitTests.Faker
     public class PersonRepositoryTest
     {
         [Theory]
-        [InlineData(1, 10, 300)]
-        [InlineData(10, 100, 400)]
-        [InlineData(100, 1000, 500)]
+        [InlineData(1, 10, 11)]
+        [InlineData(10, 100, 12)]
+        [InlineData(100, 1000, 13)]
         public void ShouldReturnCorrectAmountOfRows(int numberOfRowsToReturn, int numberOfTotalRows, int yearsToGoBack)
         {
             List<Domain.Person.Person> pessoas = new Faker<Domain.Person.Person>()
@@ -22,7 +22,7 @@ namespace Tests.UnitTests.Faker
                 .RuleFor(c => c.FirstName, f => f.Name.FirstName())
                 .RuleFor(c => c.LastName, f => f.Name.LastName())
                 .RuleFor(c => c.Email, f => f.Person.Email)
-                .RuleFor(c => c.DateOfBirth, f => f.Date.Past(yearsToGoBack))
+                .RuleFor(c => c.DateOfBirth, f => f.Date.Past(yearsToGoBack).Date)
                 .Generate(numberOfTotalRows);
 
             var externalDatabase = Substitute.For<IExternalDatabase>();
