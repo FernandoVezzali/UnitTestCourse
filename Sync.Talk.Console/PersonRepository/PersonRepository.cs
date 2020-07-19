@@ -20,9 +20,9 @@ namespace Sync.Talk.PersonRepository
             return $"{_externalDatabase.GetAll().FirstOrDefault(x => x.Id == id).FirstName} {_externalDatabase.GetAll().FirstOrDefault(x => x.Id == id).LastName}";
         }
 
-        public IEnumerable<Person> GetTop(int numberOfRows)
+        public List<Person> GetTop(int numberOfRows)
         {
-            return _externalDatabase.GetAll().OrderBy(x=>x.FirstName).Take(numberOfRows);
+            return _externalDatabase.GetAll().OrderBy(x=>x.FirstName).Take(numberOfRows).ToList();
         }
     }
 
@@ -30,6 +30,6 @@ namespace Sync.Talk.PersonRepository
     {
         public Person GetById(int id);
         public IEnumerable<Person> GetAll();
-        public IEnumerable<Person> GetTop(int numberOfRows);
+        public List<Person> GetTop(int numberOfRows);
     }
 }
