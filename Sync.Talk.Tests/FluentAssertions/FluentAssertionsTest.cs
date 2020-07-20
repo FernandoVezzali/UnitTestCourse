@@ -14,6 +14,7 @@ using Xunit;
 
 namespace Tests.UnitTests.FluentAssertions
 {
+    /*
     public class FluentAssertionsTest
     {
         [Fact]
@@ -115,4 +116,6 @@ namespace Tests.UnitTests.FluentAssertions
             }
         }
     }
+
+    */
 }

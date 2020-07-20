@@ -1,5 +1,4 @@
-﻿using Sync.Talk.Structs;
-using System;
+﻿using System;
 
 namespace Domain.Person
 {

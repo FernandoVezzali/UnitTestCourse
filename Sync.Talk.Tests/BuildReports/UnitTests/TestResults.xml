@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="07/20/2020 10:08:56">
+  <assembly name="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" run-date="2020-07-20" run-time="10:08:56" total="22" passed="22" failed="0" skipped="0" time="0.763" errors="0">
+    <errors />
+    <collection total="3" passed="3" failed="0" skipped="0" name="Test collection for Tests.UnitTests.Faker.PersonRepositoryTest" time="0.351">
+      <test name="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 10, numberOfTotalRows: 100, yearsToGoBack: 12)" type="Tests.UnitTests.Faker.PersonRepositoryTest" method="ShouldReturnCorrectAmountOfRows" time="0.1738435" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 1, numberOfTotalRows: 10, yearsToGoBack: 11)" type="Tests.UnitTests.Faker.PersonRepositoryTest" method="ShouldReturnCorrectAmountOfRows" time="0.0099576" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 100, numberOfTotalRows: 1000, yearsToGoBack: 13)" type="Tests.UnitTests.Faker.PersonRepositoryTest" method="ShouldReturnCorrectAmountOfRows" time="0.1673388" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for Tests.UnitTests.Faker.PersonTestV1" time="0.159">
+      <test name="Tests.UnitTests.Faker.PersonTestV1.ShouldHaveCorrectPropertyValues(id: 1, firstName: &quot;John&quot;, lastName: &quot;Smith&quot;, email: &quot;john@gmail.com&quot;)" type="Tests.UnitTests.Faker.PersonTestV1" method="ShouldHaveCorrectPropertyValues" time="0.0084181" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.Faker.PersonTestV1.ShouldHaveCorrectPropertyValuesFaker(id: 1)" type="Tests.UnitTests.Faker.PersonTestV1" method="ShouldHaveCorrectPropertyValuesFaker" time="0.1504380" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="3" passed="3" failed="0" skipped="0" name="Test collection for Tests.UnitTests.NSubstitute.AuthorizedTransactionV1" time="0.201">
+      <test name="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldReturnAmount200AsItsAuthorized" type="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1" method="ShouldReturnAmount200AsItsAuthorized" time="0.1963664" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldHandleNotImplementedException" type="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1" method="ShouldHandleNotImplementedException" time="0.0007440" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldReturnAmount100AsItsNotAuthorized" type="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1" method="ShouldReturnAmount100AsItsNotAuthorized" time="0.0043736" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for Tests.UnitTests.xUnit.TransactionTestV1" time="0.008">
+      <test name="Tests.UnitTests.xUnit.TransactionTestV1.ShouldReturnAmount200" type="Tests.UnitTests.xUnit.TransactionTestV1" method="ShouldReturnAmount200" time="0.0076150" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.xUnit.TransactionTestV1.ShouldReturnAmount100" type="Tests.UnitTests.xUnit.TransactionTestV1" method="ShouldReturnAmount100" time="0.0003120" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for Tests.UnitTests.xUnit.TransactionTestV2" time="0.001">
+      <test name="Tests.UnitTests.xUnit.TransactionTestV2.ShouldReturnAmount100" type="Tests.UnitTests.xUnit.TransactionTestV2" method="ShouldReturnAmount100" time="0.0004474" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.xUnit.TransactionTestV2.ShouldReturnAmount200" type="Tests.UnitTests.xUnit.TransactionTestV2" method="ShouldReturnAmount200" time="0.0002594" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="4" passed="4" failed="0" skipped="0" name="Test collection for Tests.UnitTests.xUnit.TransactionTestV3" time="0.010">
+      <test name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount100WhenSubtracting" type="Tests.UnitTests.xUnit.TransactionTestV3" method="ShouldReturnAmount100WhenSubtracting" time="0.0080230" result="Pass">
+        <traits>
+          <trait name="Category" value="Subtract" />
+        </traits>
+      </test>
+      <test name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount200WhenSubtracting" type="Tests.UnitTests.xUnit.TransactionTestV3" method="ShouldReturnAmount200WhenSubtracting" time="0.0011518" result="Pass">
+        <traits>
+          <trait name="Category" value="Subtract" />
+        </traits>
+      </test>
+      <test name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount200" type="Tests.UnitTests.xUnit.TransactionTestV3" method="ShouldReturnAmount200" time="0.0004052" result="Pass">
+        <traits>
+          <trait name="Category" value="Sum" />
+        </traits>
+      </test>
+      <test name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount100" type="Tests.UnitTests.xUnit.TransactionTestV3" method="ShouldReturnAmount100" time="0.0002513" result="Pass">
+        <traits>
+          <trait name="Category" value="Sum" />
+        </traits>
+      </test>
+    </collection>
+    <collection total="3" passed="3" failed="0" skipped="0" name="Test collection for Tests.UnitTests.xUnit.TransactionTestV4" time="0.008">
+      <test name="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: -100, expectedResult: 0)" type="Tests.UnitTests.xUnit.TransactionTestV4" method="ShouldReturnCorrectAmount" time="0.0080854" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: 100, expectedResult: 200)" type="Tests.UnitTests.xUnit.TransactionTestV4" method="ShouldReturnCorrectAmount" time="0.0000463" result="Pass">
+        <traits />
+      </test>
+      <test name="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: 200, expectedResult: 300)" type="Tests.UnitTests.xUnit.TransactionTestV4" method="ShouldReturnCorrectAmount" time="0.0000108" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for Tests.UnitTests.xUnit.TransactionTestV5" time="0.008">
+      <test name="Tests.UnitTests.xUnit.TransactionTestV5.ShouldReturnAmount16" type="Tests.UnitTests.xUnit.TransactionTestV5" method="ShouldReturnAmount16" time="0.0080874" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for Tests.UnitTests.xUnit.TransactionTestV6" time="0.008">
+      <test name="Tests.UnitTests.xUnit.TransactionTestV6.ShouldHandleException" type="Tests.UnitTests.xUnit.TransactionTestV6" method="ShouldHandleException" time="0.0075546" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for Tests.UnitTests.xUnit.TransactionTestV7" time="0.010">
+      <test name="Tests.UnitTests.xUnit.TransactionTestV7.ShouldReturnAmount200" type="Tests.UnitTests.xUnit.TransactionTestV7" method="ShouldReturnAmount200" time="0.0095509" result="Pass">
+        <output>Final amount was 200
+
+</output>
+        <traits />
+      </test>
+    </collection>
+  </assembly>
+</assemblies>

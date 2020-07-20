@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4ac168cb-70b0-4f7c-9c80-efc2eb57e5f6" name="U003783@XPNOTE-20000942 2020-07-20 10:08:58" runUser="XPCORRETORA\U003783" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-07-20T10:08:58.9378216-03:00" queuing="2020-07-20T10:08:58.9378239-03:00" start="2020-07-20T10:08:56.9248228-03:00" finish="2020-07-20T10:08:59.2139281-03:00" />
+  <TestSettings name="default" id="9f12f656-5bb6-42ea-a864-c6f22fed5b70">
+    <Deployment runDeploymentRoot="U003783_XPNOTE-20000942_2020-07-20_10_08_58" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="141bfe47-5ec4-4641-bf37-447e76fd759c" testId="4b4d7b17-4482-fc43-4419-80ae1f31ef62" testName="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: 100, expectedResult: 200)" computerName="XPNOTE-20000942" duration="00:00:00.0000463" startTime="2020-07-20T10:08:58.7439894-03:00" endTime="2020-07-20T10:08:58.7439903-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="141bfe47-5ec4-4641-bf37-447e76fd759c" />
+    <UnitTestResult executionId="92e374a7-e252-4b53-889c-ff3b06c2baf3" testId="88bc3447-e143-fe11-e53a-37a911a3853a" testName="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldReturnAmount100AsItsNotAuthorized" computerName="XPNOTE-20000942" duration="00:00:00.0043736" startTime="2020-07-20T10:08:58.9213718-03:00" endTime="2020-07-20T10:08:58.9213733-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92e374a7-e252-4b53-889c-ff3b06c2baf3" />
+    <UnitTestResult executionId="935a061a-176f-49e0-bedf-860e0bdba456" testId="1922be54-8288-524e-5240-77d3f62924a0" testName="Tests.UnitTests.xUnit.TransactionTestV2.ShouldReturnAmount100" computerName="XPNOTE-20000942" duration="00:00:00.0004474" startTime="2020-07-20T10:08:58.8421010-03:00" endTime="2020-07-20T10:08:58.8421028-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="935a061a-176f-49e0-bedf-860e0bdba456" />
+    <UnitTestResult executionId="baa518f4-0333-47e5-9f26-753c5abda59f" testId="af346fc1-8b21-8ad8-9dcd-8679462cf023" testName="Tests.UnitTests.xUnit.TransactionTestV1.ShouldReturnAmount100" computerName="XPNOTE-20000942" duration="00:00:00.0003120" startTime="2020-07-20T10:08:58.8413499-03:00" endTime="2020-07-20T10:08:58.8413516-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baa518f4-0333-47e5-9f26-753c5abda59f" />
+    <UnitTestResult executionId="fb4cfb01-4846-445e-99bb-66ba31476c71" testId="4587aafd-ce4a-d7f4-9544-74e9e8e91750" testName="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: -100, expectedResult: 0)" computerName="XPNOTE-20000942" duration="00:00:00.0080854" startTime="2020-07-20T10:08:58.7405643-03:00" endTime="2020-07-20T10:08:58.7405645-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb4cfb01-4846-445e-99bb-66ba31476c71" />
+    <UnitTestResult executionId="c386f2f0-dc91-4d3c-8958-e9ade1c452bf" testId="e8c4e04d-d2ce-0ade-7595-e6cce5148bd4" testName="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 100, numberOfTotalRows: 1000, yearsToGoBack: 13)" computerName="XPNOTE-20000942" duration="00:00:00.1673388" startTime="2020-07-20T10:08:59.0942088-03:00" endTime="2020-07-20T10:08:59.0942110-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c386f2f0-dc91-4d3c-8958-e9ade1c452bf" />
+    <UnitTestResult executionId="59360137-c7ab-4c58-896b-f53426357ee7" testId="89d04fc2-c362-a0df-c23f-cc677d1397fb" testName="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldHandleNotImplementedException" computerName="XPNOTE-20000942" duration="00:00:00.0007440" startTime="2020-07-20T10:08:58.9187014-03:00" endTime="2020-07-20T10:08:58.9187017-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59360137-c7ab-4c58-896b-f53426357ee7" />
+    <UnitTestResult executionId="3e1e6f0b-f044-43c1-8716-b1676fc645b4" testId="a9c5b7ba-fd02-68de-2ea9-66d736ca55e2" testName="Tests.UnitTests.Faker.PersonTestV1.ShouldHaveCorrectPropertyValuesFaker(id: 1)" computerName="XPNOTE-20000942" duration="00:00:00.1504380" startTime="2020-07-20T10:08:58.8850199-03:00" endTime="2020-07-20T10:08:58.8850218-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e1e6f0b-f044-43c1-8716-b1676fc645b4" />
+    <UnitTestResult executionId="e18d98bb-cc6c-4176-9ccc-32f487bba96f" testId="9eda6665-3e18-0b86-125c-15eca40612aa" testName="Tests.UnitTests.xUnit.TransactionTestV6.ShouldHandleException" computerName="XPNOTE-20000942" duration="00:00:00.0075546" startTime="2020-07-20T10:08:58.7415037-03:00" endTime="2020-07-20T10:08:58.7415043-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e18d98bb-cc6c-4176-9ccc-32f487bba96f" />
+    <UnitTestResult executionId="0e3d3e78-dced-466b-bfa8-b04df26d5a59" testId="95428214-4858-b319-3f20-32aa831bbe04" testName="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 10, numberOfTotalRows: 100, yearsToGoBack: 12)" computerName="XPNOTE-20000942" duration="00:00:00.1738435" startTime="2020-07-20T10:08:58.9186160-03:00" endTime="2020-07-20T10:08:58.9186171-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e3d3e78-dced-466b-bfa8-b04df26d5a59" />
+    <UnitTestResult executionId="5346d6bf-59a6-406f-a9a8-71ca156751f5" testId="59b3be03-c37c-ed7c-4b52-7e237d76fcca" testName="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount100WhenSubtracting" computerName="XPNOTE-20000942" duration="00:00:00.0080230" startTime="2020-07-20T10:08:58.7347694-03:00" endTime="2020-07-20T10:08:58.7349080-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5346d6bf-59a6-406f-a9a8-71ca156751f5" />
+    <UnitTestResult executionId="1983ef6d-b0be-4cf4-96cc-63f36027b9d3" testId="63529818-af60-41d2-f55e-cb8a62574245" testName="Tests.UnitTests.xUnit.TransactionTestV1.ShouldReturnAmount200" computerName="XPNOTE-20000942" duration="00:00:00.0076150" startTime="2020-07-20T10:08:58.7405838-03:00" endTime="2020-07-20T10:08:58.7405839-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1983ef6d-b0be-4cf4-96cc-63f36027b9d3" />
+    <UnitTestResult executionId="5c6bab9e-a86d-4055-962e-5bb9e058db23" testId="69ee1d4a-4eef-a674-2aee-b1897ed1cc20" testName="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: 200, expectedResult: 300)" computerName="XPNOTE-20000942" duration="00:00:00.0000108" startTime="2020-07-20T10:08:58.8393828-03:00" endTime="2020-07-20T10:08:58.8393843-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c6bab9e-a86d-4055-962e-5bb9e058db23" />
+    <UnitTestResult executionId="8dc503a3-0476-4e21-8d9a-fc95bf34f2c7" testId="bd69a95e-97b5-eb65-5e1a-952be0b65d41" testName="Tests.UnitTests.xUnit.TransactionTestV2.ShouldReturnAmount200" computerName="XPNOTE-20000942" duration="00:00:00.0002594" startTime="2020-07-20T10:08:58.8422143-03:00" endTime="2020-07-20T10:08:58.8422148-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8dc503a3-0476-4e21-8d9a-fc95bf34f2c7" />
+    <UnitTestResult executionId="13a18467-1b00-4d2c-ae6e-fad135e24501" testId="c460055d-ceae-8426-c3ac-bc71200e9377" testName="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount200WhenSubtracting" computerName="XPNOTE-20000942" duration="00:00:00.0011518" startTime="2020-07-20T10:08:58.8414379-03:00" endTime="2020-07-20T10:08:58.8414384-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13a18467-1b00-4d2c-ae6e-fad135e24501" />
+    <UnitTestResult executionId="bb50e11c-64b5-4817-962e-8cf388f0b46b" testId="4f32e65c-a20d-e364-eac0-2d5bfe60a83d" testName="Tests.UnitTests.Faker.PersonTestV1.ShouldHaveCorrectPropertyValues(id: 1, firstName: &quot;John&quot;, lastName: &quot;Smith&quot;, email: &quot;john@gmail.com&quot;)" computerName="XPNOTE-20000942" duration="00:00:00.0084181" startTime="2020-07-20T10:08:58.7405470-03:00" endTime="2020-07-20T10:08:58.7405473-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb50e11c-64b5-4817-962e-8cf388f0b46b" />
+    <UnitTestResult executionId="da5e742e-7b32-4819-a3dd-7b8b1aee610d" testId="3464abf9-21dd-37d6-0e57-f1f691adbf54" testName="Tests.UnitTests.xUnit.TransactionTestV5.ShouldReturnAmount16" computerName="XPNOTE-20000942" duration="00:00:00.0080874" startTime="2020-07-20T10:08:58.7405025-03:00" endTime="2020-07-20T10:08:58.7405036-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da5e742e-7b32-4819-a3dd-7b8b1aee610d" />
+    <UnitTestResult executionId="e756e13b-a3d0-4059-9efe-2718d41e3ed5" testId="41adc0b1-20c8-9809-097b-d76c677f011e" testName="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldReturnAmount200AsItsAuthorized" computerName="XPNOTE-20000942" duration="00:00:00.1963664" startTime="2020-07-20T10:08:58.9161202-03:00" endTime="2020-07-20T10:08:58.9161223-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e756e13b-a3d0-4059-9efe-2718d41e3ed5" />
+    <UnitTestResult executionId="0ae9f46d-27e1-41e1-8488-9f98477934a3" testId="28e3133b-75f4-2d1a-37d7-432cda3f5565" testName="Tests.UnitTests.xUnit.TransactionTestV7.ShouldReturnAmount200" computerName="XPNOTE-20000942" duration="00:00:00.0095509" startTime="2020-07-20T10:08:58.7409992-03:00" endTime="2020-07-20T10:08:58.7410005-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ae9f46d-27e1-41e1-8488-9f98477934a3">
+      <Output>
+        <StdOut>Final amount was 200</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="077823e1-1b0a-4d6e-906b-f1b3a6161885" testId="6e7ca0b8-837e-272d-011e-fa414854078c" testName="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 1, numberOfTotalRows: 10, yearsToGoBack: 11)" computerName="XPNOTE-20000942" duration="00:00:00.0099576" startTime="2020-07-20T10:08:58.9267355-03:00" endTime="2020-07-20T10:08:58.9267384-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="077823e1-1b0a-4d6e-906b-f1b3a6161885" />
+    <UnitTestResult executionId="db846246-c15c-477a-99d5-2a3318103de2" testId="b14c4f2a-331d-a2a1-ebec-2729995473d2" testName="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount100" computerName="XPNOTE-20000942" duration="00:00:00.0002513" startTime="2020-07-20T10:08:58.8416605-03:00" endTime="2020-07-20T10:08:58.8416621-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db846246-c15c-477a-99d5-2a3318103de2" />
+    <UnitTestResult executionId="75adf7c8-9ead-47a2-ad86-3273a26a208d" testId="fa43ff16-ab6b-8d9f-201d-f0636b1990e0" testName="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount200" computerName="XPNOTE-20000942" duration="00:00:00.0004052" startTime="2020-07-20T10:08:58.8415303-03:00" endTime="2020-07-20T10:08:58.8415307-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75adf7c8-9ead-47a2-ad86-3273a26a208d" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV2.ShouldReturnAmount200" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="bd69a95e-97b5-eb65-5e1a-952be0b65d41">
+      <Execution id="8dc503a3-0476-4e21-8d9a-fc95bf34f2c7" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV2" name="ShouldReturnAmount200" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldHandleNotImplementedException" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="89d04fc2-c362-a0df-c23f-cc677d1397fb">
+      <Execution id="59360137-c7ab-4c58-896b-f53426357ee7" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1" name="ShouldHandleNotImplementedException" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldReturnAmount200AsItsAuthorized" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="41adc0b1-20c8-9809-097b-d76c677f011e">
+      <Execution id="e756e13b-a3d0-4059-9efe-2718d41e3ed5" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1" name="ShouldReturnAmount200AsItsAuthorized" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.Faker.PersonTestV1.ShouldHaveCorrectPropertyValuesFaker(id: 1)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="a9c5b7ba-fd02-68de-2ea9-66d736ca55e2">
+      <Execution id="3e1e6f0b-f044-43c1-8716-b1676fc645b4" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.Faker.PersonTestV1" name="ShouldHaveCorrectPropertyValuesFaker" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: 200, expectedResult: 300)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="69ee1d4a-4eef-a674-2aee-b1897ed1cc20">
+      <Execution id="5c6bab9e-a86d-4055-962e-5bb9e058db23" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV4" name="ShouldReturnCorrectAmount" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV5.ShouldReturnAmount16" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="3464abf9-21dd-37d6-0e57-f1f691adbf54">
+      <Execution id="da5e742e-7b32-4819-a3dd-7b8b1aee610d" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV5" name="ShouldReturnAmount16" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount100WhenSubtracting" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="59b3be03-c37c-ed7c-4b52-7e237d76fcca">
+      <Execution id="5346d6bf-59a6-406f-a9a8-71ca156751f5" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV3" name="ShouldReturnAmount100WhenSubtracting" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: 100, expectedResult: 200)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="4b4d7b17-4482-fc43-4419-80ae1f31ef62">
+      <Execution id="141bfe47-5ec4-4641-bf37-447e76fd759c" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV4" name="ShouldReturnCorrectAmount" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount200" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="fa43ff16-ab6b-8d9f-201d-f0636b1990e0">
+      <Execution id="75adf7c8-9ead-47a2-ad86-3273a26a208d" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV3" name="ShouldReturnAmount200" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV7.ShouldReturnAmount200" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="28e3133b-75f4-2d1a-37d7-432cda3f5565">
+      <Execution id="0ae9f46d-27e1-41e1-8488-9f98477934a3" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV7" name="ShouldReturnAmount200" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount100" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="b14c4f2a-331d-a2a1-ebec-2729995473d2">
+      <Execution id="db846246-c15c-477a-99d5-2a3318103de2" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV3" name="ShouldReturnAmount100" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 100, numberOfTotalRows: 1000, yearsToGoBack: 13)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="e8c4e04d-d2ce-0ade-7595-e6cce5148bd4">
+      <Execution id="c386f2f0-dc91-4d3c-8958-e9ade1c452bf" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.Faker.PersonRepositoryTest" name="ShouldReturnCorrectAmountOfRows" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1.ShouldReturnAmount100AsItsNotAuthorized" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="88bc3447-e143-fe11-e53a-37a911a3853a">
+      <Execution id="92e374a7-e252-4b53-889c-ff3b06c2baf3" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.NSubstitute.AuthorizedTransactionV1" name="ShouldReturnAmount100AsItsNotAuthorized" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV3.ShouldReturnAmount200WhenSubtracting" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="c460055d-ceae-8426-c3ac-bc71200e9377">
+      <Execution id="13a18467-1b00-4d2c-ae6e-fad135e24501" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV3" name="ShouldReturnAmount200WhenSubtracting" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV1.ShouldReturnAmount200" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="63529818-af60-41d2-f55e-cb8a62574245">
+      <Execution id="1983ef6d-b0be-4cf4-96cc-63f36027b9d3" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV1" name="ShouldReturnAmount200" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV4.ShouldReturnCorrectAmount(amountToSum: -100, expectedResult: 0)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="4587aafd-ce4a-d7f4-9544-74e9e8e91750">
+      <Execution id="fb4cfb01-4846-445e-99bb-66ba31476c71" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV4" name="ShouldReturnCorrectAmount" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV1.ShouldReturnAmount100" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="af346fc1-8b21-8ad8-9dcd-8679462cf023">
+      <Execution id="baa518f4-0333-47e5-9f26-753c5abda59f" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV1" name="ShouldReturnAmount100" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV2.ShouldReturnAmount100" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="1922be54-8288-524e-5240-77d3f62924a0">
+      <Execution id="935a061a-176f-49e0-bedf-860e0bdba456" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV2" name="ShouldReturnAmount100" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.xUnit.TransactionTestV6.ShouldHandleException" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="9eda6665-3e18-0b86-125c-15eca40612aa">
+      <Execution id="e18d98bb-cc6c-4176-9ccc-32f487bba96f" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.xUnit.TransactionTestV6" name="ShouldHandleException" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 1, numberOfTotalRows: 10, yearsToGoBack: 11)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="6e7ca0b8-837e-272d-011e-fa414854078c">
+      <Execution id="077823e1-1b0a-4d6e-906b-f1b3a6161885" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.Faker.PersonRepositoryTest" name="ShouldReturnCorrectAmountOfRows" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.Faker.PersonTestV1.ShouldHaveCorrectPropertyValues(id: 1, firstName: &quot;John&quot;, lastName: &quot;Smith&quot;, email: &quot;john@gmail.com&quot;)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="4f32e65c-a20d-e364-eac0-2d5bfe60a83d">
+      <Execution id="bb50e11c-64b5-4817-962e-8cf388f0b46b" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.Faker.PersonTestV1" name="ShouldHaveCorrectPropertyValues" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTests.Faker.PersonRepositoryTest.ShouldReturnCorrectAmountOfRows(numberOfRowsToReturn: 10, numberOfTotalRows: 100, yearsToGoBack: 12)" storage="c:\repos\sync_talk\unittestcourse\sync.talk.tests\bin\debug\netcoreapp3.1\sync.talk.tests.dll" id="95428214-4858-b319-3f20-32aa831bbe04">
+      <Execution id="0e3d3e78-dced-466b-bfa8-b04df26d5a59" />
+      <TestMethod codeBase="C:\repos\Sync_Talk\UnitTestCourse\Sync.Talk.Tests\bin\Debug\netcoreapp3.1\Sync.Talk.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTests.Faker.PersonRepositoryTest" name="ShouldReturnCorrectAmountOfRows" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4b4d7b17-4482-fc43-4419-80ae1f31ef62" executionId="141bfe47-5ec4-4641-bf37-447e76fd759c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88bc3447-e143-fe11-e53a-37a911a3853a" executionId="92e374a7-e252-4b53-889c-ff3b06c2baf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1922be54-8288-524e-5240-77d3f62924a0" executionId="935a061a-176f-49e0-bedf-860e0bdba456" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af346fc1-8b21-8ad8-9dcd-8679462cf023" executionId="baa518f4-0333-47e5-9f26-753c5abda59f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4587aafd-ce4a-d7f4-9544-74e9e8e91750" executionId="fb4cfb01-4846-445e-99bb-66ba31476c71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8c4e04d-d2ce-0ade-7595-e6cce5148bd4" executionId="c386f2f0-dc91-4d3c-8958-e9ade1c452bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89d04fc2-c362-a0df-c23f-cc677d1397fb" executionId="59360137-c7ab-4c58-896b-f53426357ee7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9c5b7ba-fd02-68de-2ea9-66d736ca55e2" executionId="3e1e6f0b-f044-43c1-8716-b1676fc645b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9eda6665-3e18-0b86-125c-15eca40612aa" executionId="e18d98bb-cc6c-4176-9ccc-32f487bba96f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95428214-4858-b319-3f20-32aa831bbe04" executionId="0e3d3e78-dced-466b-bfa8-b04df26d5a59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59b3be03-c37c-ed7c-4b52-7e237d76fcca" executionId="5346d6bf-59a6-406f-a9a8-71ca156751f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63529818-af60-41d2-f55e-cb8a62574245" executionId="1983ef6d-b0be-4cf4-96cc-63f36027b9d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69ee1d4a-4eef-a674-2aee-b1897ed1cc20" executionId="5c6bab9e-a86d-4055-962e-5bb9e058db23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd69a95e-97b5-eb65-5e1a-952be0b65d41" executionId="8dc503a3-0476-4e21-8d9a-fc95bf34f2c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c460055d-ceae-8426-c3ac-bc71200e9377" executionId="13a18467-1b00-4d2c-ae6e-fad135e24501" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f32e65c-a20d-e364-eac0-2d5bfe60a83d" executionId="bb50e11c-64b5-4817-962e-8cf388f0b46b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3464abf9-21dd-37d6-0e57-f1f691adbf54" executionId="da5e742e-7b32-4819-a3dd-7b8b1aee610d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41adc0b1-20c8-9809-097b-d76c677f011e" executionId="e756e13b-a3d0-4059-9efe-2718d41e3ed5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28e3133b-75f4-2d1a-37d7-432cda3f5565" executionId="0ae9f46d-27e1-41e1-8488-9f98477934a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e7ca0b8-837e-272d-011e-fa414854078c" executionId="077823e1-1b0a-4d6e-906b-f1b3a6161885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b14c4f2a-331d-a2a1-ebec-2729995473d2" executionId="db846246-c15c-477a-99d5-2a3318103de2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa43ff16-ab6b-8d9f-201d-f0636b1990e0" executionId="75adf7c8-9ead-47a2-ad86-3273a26a208d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="22" executed="22" passed="22" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.6)&#xD;
+[xUnit.net 00:00:00.67]   Discovering: Sync.Talk.Tests&#xD;
+[xUnit.net 00:00:00.75]   Discovered:  Sync.Talk.Tests&#xD;
+[xUnit.net 00:00:00.76]   Starting:    Sync.Talk.Tests&#xD;
+[xUnit.net 00:00:01.23]   Finished:    Sync.Talk.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
